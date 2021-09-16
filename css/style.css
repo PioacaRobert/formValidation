@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  box-shadow: inset 0 100px 1px rgba(40, 18, 18, 0.3),
+    inset 0 200px 1px rgba(70, 18, 18, 0.3),
+    inset 0 300px 1px rgba(100, 18, 18, 0.3),
+    inset 0 400px 1px rgba(130, 18, 18, 0.3),
+    inset 0 500px 1px rgba(160, 18, 18, 0.3),
+    inset 0 600px 1px rgba(190, 18, 18, 0.3),
+    inset 0 700px 1px rgba(220, 18, 18, 0.3),
+    inset 0 800px 1px rgba(255, 18, 18, 0.3),
+    inset 100px 0 1px rgba(15, 18, 18, 0.9),
+    inset 200px 0 1px rgba(30, 18, 18, 0.9),
+    inset 300px 0 1px rgba(45, 18, 18, 0.9),
+    inset 400px 0 1px rgba(60, 18, 18, 0.9),
+    inset 500px 0 1px rgba(75, 18, 18, 0.9),
+    inset 600px 0 1px rgba(90, 18, 18, 0.9),
+    inset 700px 0 1px rgba(105, 18, 18, 0.9),
+    inset 800px 0 1px rgba(120, 18, 18, 0.9),
+    inset 900px 0 1px rgba(135, 18, 18, 0.9),
+    inset 1000px 0 1px rgba(150, 18, 18, 0.9),
+    inset 1100px 0 1px rgba(165, 18, 18, 0.9),
+    inset 1200px 0 1px rgba(180, 18, 18, 0.9),
+    inset 1300px 0 1px rgba(195, 18, 18, 0.9),
+    inset 1400px 0 1px rgba(210, 18, 18, 0.9),
+    inset 1500px 0 1px rgba(225, 18, 18, 0.9),
+    inset 1600px 0 1px rgba(240, 18, 18, 0.9);
+}
+
+.input {
+  font-size: 1.6rem;
+  line-height: 1.5em; /* 24px */
+  border: 1px solid #d9d9d9; /* 26px cu borderoul sus si jos */
+  padding: 0.7rem 1.5rem; /* 40px cu padding 7 px cu paddding sus si jos*/
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.input:focus {
+  border: 1px solid#b0b0b0;
+  outline: none; /* mozila */
+  box-shadow: none; /* opera */
+}
+
+.login_register_form {
+  width: 100%;
+  max-width: 32rem;
+  padding: 4rem;
+  background-color: #ffffff;
+  box-shadow: 500px 0 5px rgba(0, 0, 0, 0.7), -500px 0 5px rgba(0, 0, 0, 0.7),
+    inset -20px -20px 50px rgba(0, 0, 0, 0.9),
+    inset 20px 20px 50px rgba(0, 0, 0, 0.9),
+    inset -100px -100px 50px rgba(150, 0, 0, 0.9),
+    inset 100px 100px 50px rgba(150, 0, 0, 0.9),
+    inset -180px -180px 50px rgba(0, 0, 0, 1),
+    inset 180px 180px 50px rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+}
+
+.login_register_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.form_title {
+  font-size: 3.6rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.button {
+  background-color: #2fbf71;
+  color: #ffffff;
+  border: unset;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.login_register_page p {
+  font-size: 14px;
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.checkbox input {
+  margin-right: 1rem;
+}
+
+.margin {
+  margin-bottom: 1rem;
+  color: white;
+  animation-name: bigger;
+  animation-duration: 2s;
+}
+
+@keyframes bigger {
+  from {
+    font-size: initial;
+    color: white;
+  }
+  to {
+    font-size: 2rem;
+    color: red;
+  }
+}
